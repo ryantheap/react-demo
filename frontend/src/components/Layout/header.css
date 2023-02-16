@@ -1,0 +1,38 @@
+.header {
+  height: 100px;
+  background-color: rgb(41, 107, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navHead {
+  width: 100%;
+  background-color: #b3d9ffed;
+}
+
+.navHead ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navHead li {
+  list-style: none;
+  padding: 1rem 2rem;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navHead a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navHead a:not(:last-of-type) {
+  border-right: 1px #3d7ebeed solid;
+}

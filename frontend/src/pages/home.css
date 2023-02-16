@@ -1,0 +1,11 @@
+.home {
+  width: 60%;
+  margin: auto;
+}
+
+.home h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 3rem;
+}
